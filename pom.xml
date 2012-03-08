@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+    <modelVersion>1.0.1</modelVersion>
     <groupId>uk.org.whoami.authme.AuthMe</groupId>
-    <artifactId>AuthMe</artifactId>
-    <version>2.0</version>
+    <artifactId>SuperAuth</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
-    <name>AuthMe</name>
+    <name>SuperAuth</name>
      <properties>
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      </properties>
@@ -29,10 +29,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.0.2</version>
+                <version>1.0.1</version>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.1</source>
+                    <target>1.1</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -41,7 +41,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.0.1-R1</version>
+            <version>1.2.3-R0.1</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
